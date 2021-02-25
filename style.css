@@ -1,0 +1,95 @@
+.container {
+	display: grid;
+	grid-gap: .5rem;
+	grid-template-columns: 431px 786px 431px;
+	grid-template-rows: 224px 320px 320px;
+	min-height: 100vh;
+}
+
+.grid-item {
+	border: 1px solid var(--dark);
+	color: var(--dark);
+	padding: 1rem;
+	text-align: center;
+}
+
+.item1 {
+	background-color: #6148CB;
+
+}
+
+.item2 {
+	background-color: #008BF3;
+	grid-row: span 2;
+}
+
+.item3 {
+	background-color: #EEB55A;
+	font-family: AltaCalifornia;
+	text-align: center;
+	font-size: 257px;
+}
+
+.item4 {
+	background-color: #B24FA8;
+
+}
+
+.item5 {
+	background-color: #F685E7;
+}
+.item6 {
+	background-color: #612DAF;
+}
+
+.item7 {
+	background-color: #BCFE7D;
+}
+
+.item8 {
+	background-color: #79DAED;
+}
+
+.item9 {
+	background-color: #6CA4BE;
+}
+
+.photo > img {
+	object-fit: cover;
+	width: 55%;
+    max-height: 55%;
+}
+
+.image > img {
+	object-fit: cover;
+	width: 65%;
+	max-height: 65%;
+	margin-bottom: 20px;
+}
+
+.window > img {
+	object-fit: cover;
+	width: 55%;
+	max-height: 55%;
+}
+
+.tree > img {
+	object-fit: cover;
+	width: 50%;
+	max-height: 50%;
+	margin-top: 8px;
+}
+
+.sunrise {
+	font-family: AltaCalifornia;
+	text-align: center;
+	font-size: 300px;
+	margin-top: 30px;
+}
+
+.eye {
+	font-family: AltaCalifornia;
+	text-align: center;
+	font-size: 250px;
+	margin-top: 30px;
+}
